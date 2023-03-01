@@ -1,0 +1,85 @@
+body {
+    background: url('https://img.freepik.com/premium-photo/top-view-worktable-with-laptop-keyboard-pen-notebook-plant-pot-copy-space-home-office-room_67155-13770.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+h1{
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.box{
+  background-color:rgba(0, 255, 242, 0.279);
+  padding:25px; 
+  color: white;
+  margin:30px;
+
+}
+
+input{
+  background: transparent;
+  margin:10px;
+  height:20px;
+  width:300px;
+}
+label{
+ width:150px;
+ display: inline-block;
+}
+
+.tel-code{
+  width:40px;
+}
+.num{
+  width:240px;
+}
+
+.lname, .state, .country{
+  margin-left: 300px;
+}
+input[class="address"]
+{
+  width:800px;
+}
+input[class="bill-address" ]{
+  width:800px;
+}
+.order{
+  color:white;
+  background-color: rgb(0, 234, 255);
+  height:50px;
+  width:150px;
+  position:relative;
+  left:20%;
+ 
+}
+.reset{
+  color:white;
+  background-color: rgb(255, 225, 0);
+  height:50px;
+  width:150px;
+  position:relative;
+  left:20%;
+}
+::placeholder{
+  color:white;
+}
+select{
+  background: transparent;
+  color:white;
+  width:150px;
+  
+}
+option{
+  color:black;
+}
+p{
+  color: white;
+  text-align: center;
+}
+a:link{
+  color:red;
+}
+
+ 
